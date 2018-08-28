@@ -3,7 +3,7 @@
         <section :class="$style.content">
             <div :class="$style.login">
                 <div :class="$style.head">
-                   <img src="" alt="">
+                   <img src="https://img12.360buyimg.com/jrpmobile/jfs/t2644/238/1420176553/1442/96e2885/573d96deN06201af5.png" alt="">
                 </div>
                  <!-- <img src="../../css/fonts/head.jpg" alt=""> -->
                 <div :class="$style.tip">
@@ -65,12 +65,17 @@
                 align-items: center;
                 border-bottom: 1px solid #ddd;
                 .head {
+                    overflow: hidden;
                     width: 95px;
                     height: 95px;
                     background: #ddd;
-                    border-radius: 45px;
+                    border-radius: 50px;
                     margin: 0 20px;
-
+                    text-align: center;
+                    >img{
+                        width: 95px;
+                        height: 95px;
+                    }
                 }
                 .tip {
                     width: 450px;
